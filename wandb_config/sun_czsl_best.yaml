@@ -1,0 +1,136 @@
+dataset:
+  value: SUN
+num_class:
+  value: 717
+num_attribute:
+  value: 102
+img_size:
+  value: 448
+resnet_region:
+  value: 196
+dim_f:
+  value: 2048
+dim_v:
+  value: 300
+device:
+  value: cuda:0
+batch_size:
+  value: 50
+epochs:
+  value: 250
+use_unzip:
+  value: True
+random_seed:
+  value: 6
+lambda_:
+  value: 0.25
+lambda_reg:
+  value: 0.005
+normalize_V:
+  value: False
+tf_SAtt:
+  value: False
+tf_ec_layer:
+  value: 1
+tf_dc_layer:
+  value: 1
+tf_heads:
+  value: 1
+tf_common_dim:
+  value: 128
+tf_aux_embed:
+  value: False
+tf_dim_feedforward:
+  value: 2048
+tf_dropout:
+  value: 0.3
+dim3:
+  value: 512
+dim4:
+  value: 256
+dim1:
+  value: 512
+gdim1:
+  value: 1024
+gdim2:
+  value: 512
+k1:
+  value: 10
+k2:
+  value: 85
+k3:
+  value: 0.766
+k4:
+  value: 0.1
+is_heterogeneous:
+  value: False
+is_Chebconv:
+  value: False
+is_L2dis:
+  value: False
+is_GAT:
+  value: True
+lambda_attreg:
+  value: 1
+lambda_kl:
+  value: 1
+lambda_kl_class:
+  value: 1
+is_episode:
+  value: False
+n_gclass:
+  value: 10
+is_sampleVP:
+  value: True
+is_attgat:
+  value: False
+is_wd:
+  value: False
+is_att_dp:
+  value: False
+is_gcnWh:
+  value: False
+is_unseen_constrain:
+  value: False
+is_inter_graph:
+  value: True
+is_complete_graph_loss:
+  value: False
+is_normdif:
+  value: False
+is_layernorm:
+  value: False
+is_prenorm:
+  value: True
+is_gmlayer:
+  value: False
+is_edge_feature:
+  value: False
+is_sampleu:
+  value: False
+num_pick:
+  value: 50
+m:
+  value: 0.1
+gama:
+  value: 1
+alpha:
+  value: 0.2
+theta:
+  value: 100
+gat_dropout:
+  value: 0.6
+gat_heads:
+  value: 1
+gat_hidden:
+  value: 512
+gm_hidden_size:
+  value: 2
+gm_edge_dim:
+  value: 102
+eta1:
+  value: 0.9
+eta2:
+  value: 0.1
+bias:
+  value: 1
